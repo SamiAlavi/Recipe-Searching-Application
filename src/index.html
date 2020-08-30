@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
+    <title>Daddy's Kitchen</title>
+</head>
+
+<body onload="document.body.className += ' fadein';">
+    <div class="container">
+        <header class="header">
+            <img id='header' src="img/logo2.png" alt="Logo" class="header__logo" 
+            	onload="document.getElementById('header').className += ' zoomout';">
+            <form class="search">
+                <input type="text" class="search__field" placeholder="Search recipes...">
+                <button class="btn search__btn">
+                    <img src="img/search.png">
+                    <span>Search</span>
+                </button>
+            </form>
+            <div class="likes">
+                <div class="likes__field">
+                    <img src="img/heart.png">
+                    <font style='font-size: 40px'>Likes</font>
+                </div>
+                <div class="likes__panel">
+                    <ul class="likes__list">
+
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="results">
+            <ul class="results__list">
+                
+            </ul>
+
+
+            <div class="results__pages">
+                
+            </div>
+        </div>
+
+        <div class="recipe">
+            
+        </div>
+
+        <div class="shopping">
+            <h2 class="heading-2">My Shopping List</h2>
+            <ul class="shopping__list" style="columns: 2;">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
